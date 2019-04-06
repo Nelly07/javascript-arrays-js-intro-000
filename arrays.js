@@ -47,10 +47,7 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars){
 
 
 
-function removeElementFromEndOfArray(array){
-  var cars = ["merz", "bmw", "audi"];
-  cars.slice(0, cars.length - 1);{
-    console.log(cars);
+function removeElementFromEndOfArray(chocolateBars){
+    return slice(0, cars.length - 1);
   }
-}
-removeElementFromEndOfArray(cars);
+
