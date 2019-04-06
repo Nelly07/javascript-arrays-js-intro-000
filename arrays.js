@@ -27,13 +27,11 @@ function accessElementInArray(array,index){
 
 
 
-function destructivelyRemoveElementFromBeginningOfArray(array){
-  var colors =["la","ba","ga"];
-  colors.shift();{
-    console.log(colors);
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
+  chocolateBars.shift();
+    return chocolateBars;
   }
-}
-destructivelyRemoveElementFromBeginningOfArray(newcolors);
+
 
 
 function removeElementFromBeginningOfArray(array){
