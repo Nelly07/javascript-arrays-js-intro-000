@@ -34,14 +34,11 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
 
 
 
-function removeElementFromBeginningOfArray(array){
-  var cats=["Milo", "Garfield", "Otis"];
-  newcats=cats.slice(1);
-  newcats;{
-    console.log(cats);
+function removeElementFromBeginningOfArray(chocolateBars){
+  chocolateBars.slice(1);
+  return chocolateBars;
   }
-}
-removeElementFromBeginningOfArray(cats);
+
 
 
 function destructivelyRemoveElementFromEndOfArray(array){
