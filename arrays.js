@@ -5,12 +5,11 @@ function addElementToBeginningOfArray(chocolateBars,twix){
 
 
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
-function destructivelyAddElementToBeginningOfArray(array,element){
-  chocolateBars.push('twix');{
+function destructivelyAddElementToBeginningOfArray(chocolateBars,twix){
+  chocolateBars.upshift(twix);{
     return chocolateBars;
   }
 }
-destructivelyAddElementToBeginningOfArray(chocolateBars,'twix');
 
 function addElementToEndOfArray(array,element){
   var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
