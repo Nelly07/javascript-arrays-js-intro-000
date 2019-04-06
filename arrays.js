@@ -1,10 +1,7 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
-function addElementToBeginningOfArray(array,element){
-    var newchocolateBars=['twix',...chocolateBars];{
-      return newchocolateBars;
+function addElementToBeginningOfArray(chocolateBars,twix){
+  return [twix,...chocolateBars];
   }
-}
-addElementToBeginningOfArray(newchocolateBars,'twix');
 
 
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
