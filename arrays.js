@@ -40,13 +40,11 @@ function removeElementFromBeginningOfArray(chocolateBars){
 
 
 
-function destructivelyRemoveElementFromEndOfArray(array){
-  var iceCreams = ["chocolate", "vanilla", "raspberry"];
-  iceCreams.pop();{
-    console.log(iceCreams);
+function destructivelyRemoveElementFromEndOfArray(chocolateBars){
+  chocolateBars.pop();
+    return chocolateBars;
   }
-}
-destructivelyRemoveElementFromEndOfArray(iceCreams);
+
 
 
 function removeElementFromEndOfArray(array){
