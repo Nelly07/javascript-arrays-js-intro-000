@@ -21,13 +21,10 @@ function destructivelyAddElementToEndOfArray(chocolateBars,twix){
 
 
 
-
 function accessElementInArray(array,index){
-  const color=["red","blue","green"];{
-    console.log(color[1]);
+    return array[index];
   }
-}
-accessElementInArray(color,[1]);
+
 
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
