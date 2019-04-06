@@ -1,15 +1,15 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 function addElementToBeginningOfArray(array,element){
-    ["twix",...chocolateBars];{
-      return chocolateBars;
+    var newchocolateBars=['twix',...chocolateBars];{
+      return newchocolateBars;
   }
 }
-addElementToBeginningOfArray(...chocolateBars);
+addElementToBeginningOfArray(newchocolateBars,'twix');
 
+
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 function destructivelyAddElementToBeginningOfArray(array,element){
-  var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
-  ["twix",...chocolateBars];
-  chocolateBars=["twix",...chocolateBars];{
+  chocolateBars.push('twix');{
     return chocolateBars;
   }
 }
