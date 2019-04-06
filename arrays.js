@@ -9,22 +9,16 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars,twix){
     return chocolateBars;
 }
 
-function addElementToEndOfArray(array,element){
-  var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
-  [...chocolateBars,"twix"];{
-    return chocolateBars;
+function addElementToEndOfArray(chocolateBars,twix){
+  return [...chocolateBars,twix];
   }
-}
-addElementToEndOfArray9(chocolateBars,'twix')
 
-function destructivelyAddElementToEndOfArray(array,element){
-  var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
-  [...chocolateBars,"twix"];
-  chocolateBars=[...chocolateBars,'twix'];{
+
+function destructivelyAddElementToEndOfArray(chocolateBars,twix){
+  chocolateBars.push(twix);
     return chocolateBars;
   }
-}
-destructivelyAddElementToEndOfArray(chocolateBars,'twix');
+
 
 
 
