@@ -4,7 +4,6 @@ function addElementToBeginningOfArray(chocolateBars,twix){
   }
 
 
-var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 function destructivelyAddElementToBeginningOfArray(chocolateBars,twix){
   chocolateBars.upshift(twix);{
     return chocolateBars;
